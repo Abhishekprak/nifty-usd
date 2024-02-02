@@ -30,7 +30,7 @@ async def update_data(data: InputData):
         
        
 
-        # Convert 'date' column in DataFrame to Timestamp if it's not already in that format
+        # Convert 'date' column in DataFrame to Timestamp if it's not already in that formatt
         # Assuming 'date' column contains date strings with a mix of date and time
         df['date'] = pd.to_datetime(df['date'])
 
